@@ -171,29 +171,6 @@
 
   function productDetailFeatures() {
     // Initialize Drift for image zoom
-    function initDriftZoom() {
-      // Check if Drift is available
-      if (typeof Drift === 'undefined') {
-        console.error('Drift library is not loaded');
-        return;
-      }
-
-      const driftOptions = {
-        paneContainer: document.querySelector('.image-zoom-container'),
-        inlinePane: window.innerWidth < 768 ? true : false,
-        inlineOffsetY: -85,
-        containInline: true,
-        hoverBoundingBox: false,
-        zoomFactor: 3,
-        handleTouch: false
-      };
-
-      // Initialize Drift on the main product image
-      const mainImage = document.getElementById('main-product-image');
-      if (mainImage) {
-        new Drift(mainImage, driftOptions);
-      }
-    }
 
     // Thumbnail click functionality
     function initThumbnailClick() {
@@ -216,7 +193,7 @@
           this.classList.add('active');
 
           // Reinitialize Drift for the new image
-          initDriftZoom();
+         
         });
       });
     }
@@ -256,7 +233,7 @@
     }
 
     // Initialize all features
-    initDriftZoom();
+   
     initThumbnailClick();
     initImageNavigation();
   }
