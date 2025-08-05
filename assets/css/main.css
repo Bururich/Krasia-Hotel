@@ -24,7 +24,7 @@
   --background-color: #faf6ca; /* Background color for the entire website, including individual sections */
   --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #32220b; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #5a3707; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #1c6220; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -858,7 +858,7 @@ section,
 }
 
 .hotel-hero .hero-text h1 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   line-height: 1.2;
@@ -872,10 +872,10 @@ section,
 
 .hotel-hero .hero-text .hero-subtitle {
   font-size: 1.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   opacity: 0.9;
   line-height: 1.6;
-  max-width: 600px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1020,8 +1020,8 @@ section,
 }
 
 .hotel-hero .hero-actions .btn.btn-light:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
+  background-color: var(--contrast-color);
+  color: black;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px color-mix(in srgb, var(--accent-color), transparent 60%);
 }
@@ -1120,9 +1120,13 @@ section,
 /*--------------------------------------------------------------
 # About Home Section
 --------------------------------------------------------------*/
+.about-1 {
+  background-color: #e3e0bf;
+}
 .about-home {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #efecd4;
 }
 
 .about-home .about-images {
@@ -3064,6 +3068,7 @@ section,
 --------------------------------------------------------------*/
 .gallery-showcase .gallery-carousel {
   margin-bottom: 2rem;
+  background-color: #f1edc5;
 }
 
 .gallery-showcase .gallery-carousel .swiper-wrapper {
@@ -3938,6 +3943,9 @@ section,
 /*--------------------------------------------------------------
 # Room Details Section
 --------------------------------------------------------------*/
+.room-details {
+  background-color: #e6e2b4;
+}
 .room-details .room-gallery .main-image-container {
   position: relative;
   margin-bottom: 20px;
@@ -6297,6 +6305,9 @@ section,
 /*--------------------------------------------------------------
 # Hotel Location Section
 --------------------------------------------------------------*/
+.hotel-location {
+  background-color: #e6e2be;
+}
 .hotel-location .map-wrapper {
   position: relative;
   height: 450px;
