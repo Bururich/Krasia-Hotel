@@ -858,7 +858,7 @@ section,
 }
 
 .hotel-hero .hero-text h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   line-height: 1.2;
@@ -866,12 +866,12 @@ section,
 
 @media (max-width: 768px) {
   .hotel-hero .hero-text h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 
 .hotel-hero .hero-text .hero-subtitle {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
   opacity: 0.9;
   line-height: 1.6;
@@ -882,7 +882,7 @@ section,
 
 @media (max-width: 768px) {
   .hotel-hero .hero-text .hero-subtitle {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -1120,9 +1120,10 @@ section,
 /*--------------------------------------------------------------
 # About Home Section
 --------------------------------------------------------------*/
-.about-1 {
-  background-color: #e3e0bf;
+.another-style {
+  background-color: #d3d2c6 !important;
 }
+
 .about-home {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1800,6 +1801,9 @@ section,
 /*--------------------------------------------------------------
 # Amenities Cards Section
 --------------------------------------------------------------*/
+.amenities-cards{
+  background-color: #cbcabe !important;
+}
 .amenities-cards .amenity-card {
   background: linear-gradient(135deg, var(--surface-color), color-mix(in srgb, var(--surface-color), var(--accent-color) 2%));
   border-radius: 20px;
@@ -3944,7 +3948,7 @@ section,
 # Room Details Section
 --------------------------------------------------------------*/
 .room-details {
-  background-color: #e6e2b4;
+  background-color: #e0dec1;
 }
 .room-details .room-gallery .main-image-container {
   position: relative;
@@ -6345,18 +6349,20 @@ section,
   border-radius: 10px;
   height: 100%;
   box-shadow: 0 5px 25px color-mix(in srgb, var(--default-color), transparent 90%);
+  ;
 }
 
 .hotel-location .location-info h3 {
   color: var(--heading-color);
   margin-bottom: 20px;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .hotel-location .location-info .location-description {
   margin-bottom: 30px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   line-height: 1.8;
+  font-size: 14px;
 }
 
 .hotel-location .location-info .address-block,
@@ -6365,6 +6371,7 @@ section,
   margin-bottom: 25px;
   padding-bottom: 20px;
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  font-size: 14px;
 }
 
 .hotel-location .location-info .address-block:last-child,
