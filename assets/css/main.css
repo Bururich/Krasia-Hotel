@@ -1121,13 +1121,13 @@ section,
 # About Home Section
 --------------------------------------------------------------*/
 .another-style {
-  background-color: #d3d2c6 !important;
+  background-color: #fff !important;
 }
 
 .about-home {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #efecd4;
+  background-color: #F7F7F7;
 }
 
 .about-home .about-images {
@@ -1802,7 +1802,7 @@ section,
 # Amenities Cards Section
 --------------------------------------------------------------*/
 .amenities-cards{
-  background-color: #cbcabe !important;
+  background-color: #EFEfef !important;
 }
 .amenities-cards .amenity-card {
   background: linear-gradient(135deg, var(--surface-color), color-mix(in srgb, var(--surface-color), var(--accent-color) 2%));
@@ -3072,7 +3072,7 @@ section,
 --------------------------------------------------------------*/
 .gallery-showcase .gallery-carousel {
   margin-bottom: 2rem;
-  background-color: #f1edc5;
+  background-color: #dadada;
 }
 
 .gallery-showcase .gallery-carousel .swiper-wrapper {
@@ -3948,7 +3948,7 @@ section,
 # Room Details Section
 --------------------------------------------------------------*/
 .room-details {
-  background-color: #e0dec1;
+  background-color: #dadada;
 }
 .room-details .room-gallery .main-image-container {
   position: relative;
@@ -6310,7 +6310,7 @@ section,
 # Hotel Location Section
 --------------------------------------------------------------*/
 .hotel-location {
-  background-color: #e6e2be;
+  background-color: #e8e6e1;
 }
 .hotel-location .map-wrapper {
   position: relative;
