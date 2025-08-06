@@ -889,21 +889,20 @@ section,
 .hotel-hero .hero-features {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  
   margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
   .hotel-hero .hero-features {
     flex-direction: column;
-    gap: 1rem;
+    
   }
 }
 
 .hotel-hero .hero-features .feature-item {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
   font-weight: 500;
 }
 
@@ -1076,7 +1075,7 @@ section,
   }
 
   .hotel-hero .hero-text h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
